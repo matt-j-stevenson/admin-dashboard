@@ -1,0 +1,96 @@
+{
+  "dasekeData": [
+    {
+      "status": "Active",
+      "id": "# 006",
+      "client": "Daseke",
+      "dateCreated": "17/12/2019",
+      "daysActive": "4",
+      "gps": "Inactive",
+      "totalAlerts": 10
+    },
+        {
+      "status": "Active",
+      "id": "# 007",
+      "client": "Daseke",
+      "dateCreated": "18/12/2019",
+      "daysActive": "3",
+      "gps": "Inactive",
+      "totalAlerts": 4
+    },
+        {
+      "status": "Offline",
+      "id": "# 008",
+      "client": "Daseke",
+      "dateCreated": "21/12/2019",
+      "daysActive": "1",
+      "gps": "Inactive",
+      "totalAlerts": 0
+    },
+        {
+      "status": "Active",
+      "id": "# 009",
+      "client": "Daseke",
+      "dateCreated": "22/12/2019",
+      "daysActive": "3",
+      "gps": "Inactive",
+      "totalAlerts": 5
+    },
+        {
+      "status": "Idle",
+      "id": "# 010",
+      "client": "Daseke",
+      "dateCreated": "25/12/2019",
+      "daysActive": "7",
+      "gps": "Inactive",
+      "totalAlerts": 3
+    }
+  ],
+  "swiftData": [
+    {
+      "status": "Idle",
+      "id": "# 001",
+      "client": "Swift",
+      "dateCreated": "10/12/2019",
+      "daysActive": "3",
+      "gps": "Inactive",
+      "totalAlerts": 2
+    },
+    {
+      "status": "Active",
+      "id": "# 002",
+      "client": "Swift",
+      "dateCreated": "11/12/2019",
+      "daysActive": "1",
+      "gps": "Inactive",
+      "totalAlerts": 1
+    },
+    {
+      "status": "Offline",
+      "id": "# 003",
+      "client": "Swift",
+      "dateCreated": "13/12/2019",
+      "daysActive": "6",
+      "gps": "Inactive",
+      "totalAlerts": 2
+    },
+    {
+      "status": "Offline",
+      "id": "# 004",
+      "client": "Swift",
+      "dateCreated": "14/12/2019",
+      "daysActive": "2",
+      "gps": "Inactive",
+      "totalAlerts": 0
+    },
+    {
+      "status": "Active",
+      "id": "# 005",
+      "client": "Swift",
+      "dateCreated": "15/12/2019",
+      "daysActive": "7",
+      "gps": "Inactive",
+      "totalAlerts": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+.top-nav-wrapper {
+  margin-bottom: 0;
+  z-index: 2;
+  height: 65px;
+  padding: 10px;
+  background-color: rgb(30, 33, 47);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  color: rgb(93, 100, 126);
+}
+
+.top-nav-options {
+  height: 65px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.top-nav-option {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  color: rgb(93, 100, 126);
+  display: flex;
+  align-items: center;
+  transition: all .5s ease-out;
+  text-decoration: none;
+
+  &__icon {
+    font-size: 25px;
+  }
+
+  &__logout {
+    font-size: 25px;
+    color: rgb(255, 98, 98);
+  }
+
+  &:hover {
+    transform: perspective(0) scale(1.1);
+    cursor: pointer;
+    color: rgb(226, 226, 226);
+    background-color: rgba(60, 65, 88, 0.274);
+  }
+}
+
+.topbar-highlight {
+  font-size: 25px;
+  color: rgb(255, 98, 98);
+}
+
+.sensata-logo {
+  margin-left: 8px;
+}

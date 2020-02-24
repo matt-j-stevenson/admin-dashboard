@@ -1,0 +1,107 @@
+.side-nav-wrapper {
+  width: 65px;
+  display: flex;
+  // height: 100vh;
+  // min-height: 100vh;
+  // max-height: 100vh;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(30, 33, 47);
+  z-index: 2;
+  flex-shrink: 0;
+  transition: .1s ease width;
+
+  &.is-open {
+    width: 180px;
+  }
+}
+
+.sidenav-content {
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.panel-top {
+  background-color: #00acec;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+  }
+
+  &__icon {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 10px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    transition: .3s;
+    opacity: 0.8;
+  }
+
+  &__img {
+    margin-right: 73px;
+    height: 45px;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.1s;
+  }
+}
+
+.side-nav-options {
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.side-nav-option {
+  color: rgb(93, 100, 126);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: all .5s ease-out;
+  text-decoration: none;
+
+  &__icon {
+    font-size: 25px;
+    margin: 0 15px 0 0;
+  }
+
+  &:hover,
+  &:active {
+    transform: perspective(0) scale(1.05);
+    cursor: pointer;
+    color: rgb(226, 226, 226);
+    background-color: rgba(60, 65, 88, 0.274);
+  }
+}
+
+.router-link-active {
+  color: rgb(226, 226, 226);
+}
